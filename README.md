@@ -1,6 +1,6 @@
 # BigMatrixCylinder
 
-The BigMatrixCylinder is a large LED cylinder with 1680 addressable LEDs (84x20 matrix) showing beautiful animations and allowing up to 4 people playing games like Tetris against each other. In party mode, it shows audio triggered animations and is controlled via ArtNet. It's powered by either a Raspberry Pi, a Teensy 4, a PixelBlaze. The cylinder has a diameter og 90cm and a height of 70cm.
+The BigMatrixCylinder is a large LED cylinder with 1680 addressable LEDs (84x20 matrix) showing beautiful animations and allowing up to 4 people playing games like Tetris against each other. In party mode, it shows audio triggered animations and is controlled via ArtNet. It's powered by either a Raspberry Pi, a Teensy 4, a PixelBlaze. The cylinder has a diameter of 90cm and a height of 70cm.
 
 ![image](https://github.com/makeTVee/BigMatrixCylinder/assets/18531000/c600e6b2-864a-4ea3-a0e9-51fce3c3d0de)
 
