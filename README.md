@@ -4,11 +4,9 @@ The BigMatrixCylinder is a large LED cylinder with 1680 addressable LEDs (84x20 
 
 ![image](https://github.com/makeTVee/BigMatrixCylinder/assets/18531000/c600e6b2-864a-4ea3-a0e9-51fce3c3d0de)
 
-HArdwarewise, the 1680 LEDs are separated in 4 segements with 420 LEDs (21x20). 
-
 ## Custom Animations
 
-Easiest way of preparing custom animations are GIF files or pictrue slideshows. GIFs can be streched to the matrix size, but best results will be generated with nativ 21x5 aspect ratio. Currently, GIFs are played with fixed transition time between the frames, but overall speed can be changed.
+Easiest way of preparing custom animations are GIF files or picture slideshows. GIFs can be streched to the matrix size, but best results will be generated with native 21x5 aspect ratio. Currently, GIFs are played with fixed transition time between the frames, but overall speed can be changed.
 
 ## Custom Games
 coming soon.
