@@ -9,8 +9,14 @@ The matrix has 84x20 pixels. Pygame lib is used for simulation. If you start the
 In the example the four worms are running indepenently.
 
 ## Controller
-The games
+Good introduction to pygame joystick events: 
+https://www.pygame.org/docs/ref/joystick.html
 
+The controller is a simple SNES gamepad.
 ![image](https://github.com/makeTVee/BigMatrixCylinder/assets/18531000/75ec01f1-1e12-43b6-b77d-a1c54df0b9b7)
 
 ## Display matrix
+
+ drawPixel(x,y,color)
+
+ drawPixelRgb(x,y,r,g,b):
