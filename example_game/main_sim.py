@@ -204,6 +204,13 @@ def runSnakeGame():
                         if (event.key==keylist[klist_index][3]):
                             if snakes[klist_index].direction != DOWN:
                                 snakes[klist_index].direction = UP
+                                
+                if event.type == pygame.QUIT:
+                    terminate() # terminate if any QUIT events are present
+                if event.type == pygame.KEYUP:
+                    if event.key == K_ESCAPE:
+                        terminate() # terminate if the KEYUP event was for the Esc key
+   
 
             # check if the worm has hit itself or the edge
             if snakes[s_i].wormCoords[HEAD]['x'] == -1 or snakes[s_i].wormCoords[HEAD]['x'] == BOARDWIDTH or snakes[s_i].wormCoords[HEAD]['y'] == -1 or snakes[s_i].wormCoords[HEAD]['y'] == BOARDHEIGHT:
@@ -249,8 +256,8 @@ def runSnakeGame():
         clearScreen()
 
         for i in range(0,players):
-            drawWorm(snakes[i].wormCoords,2*i)
-            drawApple(snakes[i].apple,2*i+1)
+            drawWorm(snakes[i].wormCoords,i)
+            drawApple(snakes[i].apple,i)
         updateScreen()
         time.sleep(.15)
         
@@ -264,7 +271,7 @@ def drawWorm(wormCoords,color):
 def drawApple(coord, color):
     x = coord['x']
     y = coord['y']
-    drawPixel(x,y,color)
+    drawLightPixel(x,y,color)
 
 def clearScreen():
     DISPLAYSURF.fill(BGCOLOR)
