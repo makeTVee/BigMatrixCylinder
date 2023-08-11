@@ -6,7 +6,7 @@ The BigMatrixCylinder is a large LED cylinder with 1680 addressable LEDs (84x20 
 
 ## Custom Animations
 
-Easiest way of preparing custom animations are GIF files or picture slideshows. GIFs can be streched to the matrix size, but best results will be generated with native 21:5 aspect ratio. Currently, GIFs are played with fixed transition time between the frames, but overall speed can be changed.
+Easiest way of preparing custom animations are GIF files or picture slideshows. GIFs can be streched to the matrix size, but best results will be generated with native 21:5 aspect ratio (84x20 pixel). Currently, GIFs are played with fixed transition time between the frames, but overall speed can be changed.
 
 ## Custom Games
 Simple example of a 4-player snake game in the example_game folder. Requires pygame lib.
